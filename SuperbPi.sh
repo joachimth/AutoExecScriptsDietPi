@@ -1,9 +1,9 @@
 #!/bin/bash
 
 echo "Hi there, you are entering the wild world of automation"
+sudo apt-get install -y firmware-ralink
+sudo apt-get install -y git
 
-sudo apt-get install git -y
-sleep 5
 cd ~
 rm -rf ~/SuperbPi
 git clone https://github.com/joachimth/SuperbPi
