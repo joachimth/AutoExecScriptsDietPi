@@ -10,6 +10,5 @@ git clone https://github.com/joachimth/SuperbPi
 cd ~/SuperbPi
 chmod +x cleanstart.sh
 ./cleanstart.sh
-rm -rf ~/SuperbPi/cleanstart.sh
 
 echo "Hi there you are LEAVING!! the wild world of automation"
